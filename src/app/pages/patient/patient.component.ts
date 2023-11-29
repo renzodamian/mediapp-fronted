@@ -14,7 +14,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   standalone: true,
   templateUrl: './patient.component.html',
   styleUrls: ['./patient.component.css'],
-  imports: [MaterialModule, NgFor,RouterLink,RouterOutlet]
+  imports: [MaterialModule, NgFor,RouterLink ,RouterOutlet]
 
 })
 export class PatientComponent implements OnInit{
