@@ -11,9 +11,10 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
     AppComponent,
     LoginComponent,
+  
     //PatientComponent, PatientEditComponent, MedicComponent,LayoutComponent ,  
     //MedicDialogComponent, ExamComponent, ExamEditComponent, SpecialtyComponent,
-    //SpecialtyEditComponent,
+    //SpecialtyEditComponent,   ConsultAutocompleteComponent,
 
 
   ],
