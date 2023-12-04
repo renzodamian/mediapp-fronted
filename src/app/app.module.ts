@@ -10,10 +10,11 @@ import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
+    LoginComponent,  
     //PatientComponent, PatientEditComponent, MedicComponent,LayoutComponent ,  
     //MedicDialogComponent, ExamComponent, ExamEditComponent, SpecialtyComponent,
-    //SpecialtyEditComponent,
+    //SpecialtyEditComponent,   ConsultAutocompleteComponent,     ConsultWizardComponent,
+
 
 
   ],
@@ -22,7 +23,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

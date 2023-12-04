@@ -28,14 +28,16 @@ export class MedicComponent implements OnInit {
   dataSource: MatTableDataSource<Medic>;
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
-
-  constructor(
+  /*constructor(
     private medicService: MedicService,
     private _dialog: MatDialog,
     private _snackBar: MatSnackBar
-  
-  ) {
-  }
+  ) {}*/
+
+  private medicService = inject(MedicService);
+  private _dialog = inject(MatDialog);
+  private _snackBar = inject(MatSnackBar);
+
 
 
   ngOnInit(): void {
