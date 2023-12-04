@@ -20,7 +20,9 @@ import {DateAdapter, MAT_DATE_LOCALE, MatNativeDateModule} from '@angular/materi
 import { CustomDateAdapter } from './custom-adapter';
 import { MatExpansionModule } from '@angular/material/expansion';
 import {MatListModule} from '@angular/material/list';
-
+import { MatStepperModule } from '@angular/material/stepper';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -49,9 +51,11 @@ import {MatListModule} from '@angular/material/list';
     MatNativeDateModule,
     MatExpansionModule,
     MatListModule,
+    MatStepperModule,
+    MatCardModule,
+    MatGridListModule,
     
     
-
   ],
   providers:[
     { provide: MAT_DATE_LOCALE, useValue: 'es-ES'}, 

@@ -8,6 +8,7 @@ import { SpecialtyComponent } from './specialty/specialty.component';
 import { SpecialtyEditComponent } from './specialty/specialty-edit/specialty-edit.component';
 import { Consult } from '../model/consult';
 import { ConsultAutocompleteComponent } from './consult-autocomplete/consult-autocomplete.component';
+import { ConsultWizardComponent } from './consult-wizard/consult-wizard.component';
 
 export const PagesRoutes: Routes = [
   {
@@ -54,4 +55,6 @@ export const PagesRoutes: Routes = [
   },
   { path: 'medic', component: MedicComponent },
   { path: 'consult-autocomplete', component: ConsultAutocompleteComponent },
+  { path: 'consult-wizard', component: ConsultWizardComponent },
+
 ];
